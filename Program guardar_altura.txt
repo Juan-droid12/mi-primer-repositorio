@@ -1,0 +1,52 @@
+algotitmo: calcular volumen de un cono
+1. iniciar
+2. definir valor de pi
+3. otener valores de altura y radio
+4. calcular valor del volumen utilizando la ecuación
+5. mostrar resultados 
+6. finalizar
+
+pseudocodigo
+program calcular_vol_cono
+Start
+//programa para calcular volumen de un cubo 
+// declaracion de variables
+constant float PI = 3.1416
+declare float radius
+declare float altura
+declare float volumen 
+
+display "ingrese valor de radio"
+input radius 
+display "ingrese la altura del cono"
+input altura
+set volumen = (PI * radius ^ 2 * altura ) / 3
+display "el volumen del cono es ", volumen
+End
+
+algitmo: calcular la pendiente de una recta 
+1. iniciar 
+2. definir variables de "x" y "y"
+3. obtener valores de las coordenadas de variables "x1","x2", y "y1","y2"
+4. calcular valores de la pendiente mediante la ecuacion (M = y2-y1 / x2-x1 )
+5. mostrar resultados 
+6. finalizar 
+
+pseudocodigo 
+program calcular_pendiente_recta
+start
+// programa para calcular la pendiente de una recta 
+// variables 
+declare flaot x2
+declare float x1
+declare float y2
+declare float y1 
+declare float M
+display "valor de x1"
+input x1
+display" valor de x2"
+input x2
+display "valor y1 "
+inpunt y1
+display " valor de y2"
+input
